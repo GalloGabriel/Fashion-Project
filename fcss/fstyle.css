@@ -1,0 +1,157 @@
+body{
+  font-family: tahoma, arial, sans-serif;
+  background-color: #f2f2f2;
+  width: 75%;
+  margin-left: 160px;
+  margin-top: 35px;
+}
+
+.hero{
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-top: 1px solid transparent;
+  background-image: url(topo.jpg);
+}
+
+.hero nav{
+  padding: 1px;
+  background-color: #00334d;
+}
+
+.hero nav ul{
+  text-align: right;
+  margin: 15px 15px 0 0;
+}
+
+.hero nav li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.hero nav a{
+  display: block;
+  padding: 13px;
+  color: #425564;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+  transition: color 0.3s linear;
+}
+
+.hero nav a:hover{
+  color: white;
+}
+
+.hero img{
+position: absolute;
+margin-left: 150px;
+margin-top: 20px;
+}
+
+.portifolio{
+  padding: 50px 100px;
+}
+
+.portifolio h1{
+  text-align: center;
+  font-size: 40px;
+  color: #262626;
+  font-family: sans-serif;
+  margin-top: 65px;
+}
+
+.portifolio p{
+  text-align: center;
+  color: #8c8c8c;
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 2;
+}
+
+.content-section{
+  overflow: auto;
+}
+
+.content-sectionimg{
+  margin-top: 30px;
+  overflow: auto;
+}
+
+.model{
+  width: 32%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.model img{
+  width: 97%;
+  display: block;
+}
+
+.model h3{
+  text-align: center;
+  text-transform: uppercase;
+  color: #404040;
+  letter-spacing: 5px;
+}
+
+.model p{
+  text-align: center;
+  color: #808080;
+  font-size: 16px;
+}
+
+.model-2, .model-3{
+  margin-left:2%;
+}
+
+.detail{
+  padding: 100px;
+  background-color: #003d52;
+  margin-top: 90px;
+  background-image: url(bg_detalhe.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.detail h1{
+  font-size: 40px;
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.detail p{
+  color: white;
+  font-weight: lighter;
+  line-height: 2;
+  width: 70%;
+}
+
+.call{
+  text-align: center;
+  color: #00334d;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+
+footer{
+  width: 97%;
+  margin: auto;
+  text-align: center;
+  background-color: #00111a;
+  color: #425564;
+  padding: 10px;
+  margin-top: 40px;
+  letter-spacing: 5px;
+  font-size: 14px;
+  font-weight: 100;
+  margin-right: 100px;
+}
